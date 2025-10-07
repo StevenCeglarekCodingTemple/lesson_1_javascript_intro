@@ -181,3 +181,65 @@ console.log("Step 4: result =", result);
 
 // 2. User console.assert for testing
 console.assert(result === 19, "Addition should equal 19");
+
+
+
+// Create variables for your information
+let firstName6 = "Your Name";
+let lastName6 = "Your Last Name";
+let age6 = 25;
+let city = "Your City";
+let isStudent6 = true;
+
+// Display information using different methods
+console.log("=== Personal Information ===");
+console.log("Name:", firstName6, lastName6);
+console.log("Age:", age6);
+console.log("City:", city);
+console.log("Student:", isStudent6);
+
+// Use template literals
+let info = `I am ${firstName6} ${lastName6}, ${age6} years old, living in ${city}`;
+console.log("Formatted:", info);
+
+
+// Create a simple calculator
+let num1 = 15;
+let num2 = 7;
+
+// Perform operations
+let sum = num1 + num2;
+let difference = num1 - num2;
+let product = num1 * num2;
+let quotient = num1 / num2;
+let remainder = num1 % num2;
+
+// Display results
+console.log("=== Calculator Results ===");
+console.log(`${num1} + ${num2} = ${sum}`);
+console.log(`${num1} - ${num2} = ${difference}`);
+console.log(`${num1} * ${num2} = ${product}`);
+console.log(`${num1} / ${num2} = ${quotient}`);
+console.log(`${num1} % ${num2} = ${remainder}`);
+
+
+// String manipulation practice
+let sentence = "JavaScript is awesome!";
+let name = "Alice";
+
+// Basic operations
+console.log("Original:", sentence);
+console.log("Length:", sentence.length);
+console.log("Uppercase:", sentence.toUpperCase());
+console.log("Lowercase:", sentence.toLowerCase());
+
+// Replace and concatenate
+let personalized = sentence.replace("JavaScript", name);
+console.log("Personalized:", personalized);
+
+// Template literal with calculations
+let year = 2024;
+let birthYear = 1995;
+let newAge = year - birthYear;
+let newMessage = `${name} is ${newAge} years old in ${year}`;
+console.log("Age message:", newMessage);
